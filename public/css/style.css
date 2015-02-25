@@ -1,0 +1,22 @@
+body.principal{
+	background-color: #00A055;
+}
+
+body.principal section.principal h2{
+	color: #fff;
+}
+body.principal section.principal{
+	margin:0 auto;
+	width: 700px;
+}
+
+body.principal section.principal .conteudo{
+	margin: 0 auto;
+	width: 560px;
+}
+
+body.principal section.principal .conteudo button{
+	width: 90px;
+	height: 50px;
+}
+

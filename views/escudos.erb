@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Rodrigo</title>
+	<link rel="stylesheet" href="./css/escudos.css">
+</head>
+<body class="<%= @classe_tamanho %>">
+	<a href="http://localhost:4567/">Retornar para pagina de tamanhos</a>
+	<% titulo = @classe_tamanho.gsub("escudos_", "") %>
+	<h2>Escudos do Tamanho <%= titulo %> - quantidade total de escudos <%= @nome_escudos.size %></h2>	
+	<ul>
+		<% @nome_escudos.each do |item| %>
+	    	<li><div class="nome"><%= item[:nome] %></div><img src="<%= item[:img] %>" alt=""></li>
+	  	<% end %>	
+	</ul>	
+</body>
+</html>
+

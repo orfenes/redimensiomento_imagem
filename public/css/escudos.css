@@ -1,0 +1,102 @@
+/*Escudos do tamanho 24px*/
+.escudos_24{
+	background-color: #fff;
+}
+
+
+.escudos_24 ul li{
+	list-style: none;
+	display: block;
+	float: left;
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin: 10px;
+	height: 30px;
+	width: 200px;
+	overflow: hidden;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.escudos_24 ul li .nome{
+	margin-left: 20px;
+	margin-top: 8px;	
+}
+
+.escudos_24 ul li img{
+	margin-left: 4px;	
+}
+
+.escudos_24 ul li .nome, img{
+	float: left;
+	margin-top: 3px;
+}
+
+/*Escudos do tamanho 30px*/
+.escudos_30{
+	background-color: #fff;
+}
+
+.escudos_30 ul li{
+	list-style: none;
+	display: block;
+	float: left;
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin: 10px;
+	height: 30px;
+	width: 200px;
+	overflow: hidden;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.escudos_30 ul li .nome{
+	margin-left: 20px;
+	margin-top: 8px;	
+}
+
+.escudos_30 ul li img{
+	margin-left: 4px;	
+}
+
+.escudos_30 ul li .nome, img{
+	float: left;
+	margin-top: 3px;
+}
+
+
+/*Escudos do tamanho 92px*/
+.escudos_92{
+	background-color: #fff;
+}
+
+.escudos_92 ul li{
+	list-style: none;
+	display: block;
+	float: left;
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin: 10px;
+	height: 60px;
+	width: 240px;
+	overflow: hidden;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.escudos_92 ul li .nome{
+	margin-left: 20px;
+	margin-top: 8px;	
+}
+
+.escudos_92 ul li img{
+	margin-left: 4px;	
+}
+
+.escudos_92 ul li .nome, img{
+	float: left;
+	margin-top: 3px;
+}
+
+

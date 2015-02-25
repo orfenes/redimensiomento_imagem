@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Escudos dos Times</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<script src="./script/codigo.js"></script>
+</head>
+<body class="principal">
+	<section class="principal">
+		<h2>Selecione o tamanho do escudo que deseja</h2>
+		<div class="conteudo">
+			<% @img_dirs.each do |nome, dir| %>
+				<% caminho = dir.gsub("./public/", "") %>
+				<button data-item='<%= dir %>' onClick="location.href='<%= caminho %>'"><%= nome %></button>
+	  		<% end %>								
+		</div>
+	</section>
+</body>
+</html>
