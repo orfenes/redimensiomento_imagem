@@ -10,7 +10,8 @@ obs: Todos os escudos estao dentro da pasta public com seus devidos redirecionam
 
 -----------------------------------------------------------------------------------------------------------
 
-Redimenisonamento de imagem
+######Redimenisonamento de imagem
+
 1. Obrigatorio dependencias para utilizar imagemagick.
 	1. brew install imagemagick.
 
@@ -18,9 +19,3 @@ Redimenisonamento de imagem
 3. O arquivo minimizar.rb realizar o redimensionamento das imagens.
 4. Caso esteje criando uma novo formato , necessario criar uma nova pasta.
 5. Agora é so roda o comando ruby minimizar.rb.
-
-
-
-
-
-
