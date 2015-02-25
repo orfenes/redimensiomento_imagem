@@ -12,7 +12,7 @@ obs: Todos os escudos estao dentro da pasta public com seus devidos redirecionam
 
 ######Redimenisonamento de imagem
 
-####### Obrigatorio dependencias para utilizar imagemagick.
+#######Obrigatorio dependencias para utilizar imagemagick.
 
 1. rode o seguinte comando no terminal brew install imagemagick.
 2. Apos instalado o imagemmagick rode o comando gem install rmagick.  
